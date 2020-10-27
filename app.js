@@ -23,6 +23,4 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static('public/images'));
 app.use(express.static('public/css'));
 app.use('/', indexRouter);
-
-
 module.exports = app;
