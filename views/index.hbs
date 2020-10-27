@@ -5,7 +5,7 @@
                 <div class="card card-signin my-5">
                     <div class="card-body">
                         <h5 class="card-title text-center">Sign In</h5>
-                        <form class="form-signin" action="/login" method="get">
+                        <form class="form-signin" action="/" method="post">
                             <div class="form-label-group">
                                 <input type="text" id="inputUsername" class="form-control" placeholder="Username" name="username" required autofocus>
                                 <label for="inputUsername">Username</label>
@@ -22,6 +22,9 @@
                             </div>
                             <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
                             <hr class="my-4">
+                            <div class="{{styleButton}}" {{isShowNotification}}>
+                                <strong>{{status}}</strong> {{content_status}}
+                            </div>
                         </form>
                     </div>
                 </div>
