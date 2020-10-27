@@ -3,7 +3,6 @@ var path = require('path');
 var logger = require('morgan');
 var mongoose = require('mongoose');
 var indexRouter = require('./routes/index');
-var homeRouter = require('./routes/home');
 
 
 
