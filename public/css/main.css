@@ -2,7 +2,7 @@ body, html {
     height: 100%;
 }
 .bg {
-    background-image: url("bg-01.jpg");
+    background-image: url("/images/bg-01.jpg");
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
