@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47e548a9-a280-42a5-aa5c-d18b0dc22f79" name="Default Changelist" comment="login">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/key.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="47e548a9-a280-42a5-aa5c-d18b0dc22f79" name="Default Changelist" comment="login" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,6 +79,7 @@
       <workItem from="1603645587670" duration="95000" />
       <workItem from="1603714732868" duration="6041000" />
       <workItem from="1603777467810" duration="2758000" />
+      <workItem from="1603812303380" duration="347000" />
     </task>
     <task id="LOCAL-00001" summary="hi">
       <created>1603445098933</created>
@@ -108,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603645659768</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="login">
+      <created>1603812531272</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603812531272</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,15 +222,19 @@
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
     <state width="1256" height="351" key="GridCell.Tab.3.right/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1603645572855" />
-    <state x="1881" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603645665200">
+    <state x="1881" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603812553764">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state x="1881" y="145" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1603645665200" />
+    <state x="1881" y="145" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1603812553764" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1603446678488" />
     <state x="2629" y="116" width="951" height="821" key="dock-window-1" timestamp="1603721324725">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
     <state x="2629" y="116" width="951" height="821" key="dock-window-1/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1603721324725" />
     <state x="-7" y="0" width="697" height="745" key="dock-window-1/0.0.1366.738@0.0.1366.738" timestamp="1603618478508" />
+    <state x="1840" y="270" key="search.everywhere.popup" timestamp="1603812308970">
+      <screen x="1366" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1840" y="270" key="search.everywhere.popup/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1603812308970" />
   </component>
 </project>
