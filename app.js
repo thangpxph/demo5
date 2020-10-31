@@ -3,6 +3,7 @@ var path = require('path');
 var logger = require('morgan');
 var mongoose = require('mongoose');
 var indexRouter = require('./routes/index');
+var apiRouter = require('./routes/api');
 
 
 
@@ -22,4 +23,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static('public/images'));
 app.use(express.static('public/css'));
 app.use('/', indexRouter);
+app.use('/api', apiRouter);
+
+
+
+
+
 module.exports = app;

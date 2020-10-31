@@ -1,8 +1,9 @@
 var express = require('express');
 var router = express.Router();
 const User = require('../models/User');
+const ClientAccount = require('../models/ClientAccount');
 /* GET home page. */
-router.get('/', function (req, res) {
+router.get('/', async function (req, res) {
     res.render('index');
 })
 router.post('/', async function (req,res){
