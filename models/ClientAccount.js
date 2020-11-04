@@ -6,7 +6,8 @@ const ClientAccountSchema = mongoose.Schema({
     email: {type: String},
     phone: {type: Number},
     numberOfMeals: {type: Number},
-    evaluate: {type: String}
+    evaluate: {type: String},
+    avatar: {type: String}
 });
 const ClientAccount = mongoose.model('clientAccount', ClientAccountSchema);
 module.exports = ClientAccount;
