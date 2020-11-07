@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47e548a9-a280-42a5-aa5c-d18b0dc22f79" name="Default Changelist" comment="giao dien quan ly ban" />
+    <list default="true" id="47e548a9-a280-42a5-aa5c-d18b0dc22f79" name="Default Changelist" comment="giao dien quan ly ban">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/home.hbs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +60,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.19.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/layouts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/home" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -66,10 +71,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views\login" />
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views\home" />
+      <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views\login" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views\home" />
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views\layouts" />
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views" />
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\public\images" />
@@ -99,7 +105,7 @@
       <workItem from="1604304469006" duration="4305000" />
       <workItem from="1604486887804" duration="6923000" />
       <workItem from="1604495237063" duration="730000" />
-      <workItem from="1604717426541" duration="6408000" />
+      <workItem from="1604717426541" duration="10627000" />
     </task>
     <task id="LOCAL-00001" summary="hi">
       <created>1603445098933</created>
@@ -206,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604724071293</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="giao dien quan ly ban">
+      <created>1604724206841</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604724206841</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,25 +266,25 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="465" y="67" key="Github.UntrackedFilesDialog/0.0.1366.738@0.0.1366.738" timestamp="1603443518721" />
-    <state width="1256" height="375" key="GridCell.Tab.0.bottom" timestamp="1604724003355">
+    <state width="1256" height="344" key="GridCell.Tab.0.bottom" timestamp="1604728904113">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1256" height="375" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604724003355" />
+    <state width="1256" height="344" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604728904113" />
     <state width="1345" height="243" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1604495218932" />
-    <state width="1256" height="375" key="GridCell.Tab.0.center" timestamp="1604724003354">
+    <state width="1256" height="344" key="GridCell.Tab.0.center" timestamp="1604728904113">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1256" height="375" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604724003354" />
+    <state width="1256" height="344" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604728904113" />
     <state width="1345" height="243" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1604495218932" />
-    <state width="1256" height="375" key="GridCell.Tab.0.left" timestamp="1604724003354">
+    <state width="1256" height="344" key="GridCell.Tab.0.left" timestamp="1604728904112">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1256" height="375" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604724003354" />
+    <state width="1256" height="344" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604728904112" />
     <state width="1345" height="243" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1604495218932" />
-    <state width="1256" height="375" key="GridCell.Tab.0.right" timestamp="1604724003355">
+    <state width="1256" height="344" key="GridCell.Tab.0.right" timestamp="1604728904113">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1256" height="375" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604724003355" />
+    <state width="1256" height="344" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604728904113" />
     <state width="1345" height="243" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604495218932" />
     <state width="1256" height="351" key="GridCell.Tab.1.bottom" timestamp="1603645572855">
       <screen x="1366" y="0" width="2560" height="1050" />
@@ -325,10 +338,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1604495311519" />
-    <state x="1881" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604724076703">
+    <state x="1881" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604724209370">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state x="1881" y="145" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604724076703" />
+    <state x="1881" y="145" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604724209370" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1604489437614" />
     <state x="1616" y="165" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604718064607">
       <screen x="1366" y="0" width="2560" height="1050" />
@@ -343,10 +356,10 @@
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
     <state x="2752" y="135" width="1046" height="633" key="dock-window-2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604723130333" />
-    <state x="1724" y="95" width="759" height="636" key="dock-window-3" timestamp="1604130636279">
+    <state x="2644" y="65" width="1046" height="664" key="dock-window-3" timestamp="1604724724261">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state x="1724" y="95" width="759" height="636" key="dock-window-3/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604130636279" />
+    <state x="2644" y="65" width="1046" height="664" key="dock-window-3/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604724724261" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1604135803823">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

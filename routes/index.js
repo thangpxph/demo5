@@ -1,9 +1,6 @@
 var express = require('express');
 var router = express.Router();
 const User = require('../models/User');
-const Dish = require('../models/Dish');
-const Category = require('../models/Category');
-const Table = require('../models/Table');
 /* GET home page. */
 router.get('/', async function (req, res) {
     res.render('login/index.hbs');

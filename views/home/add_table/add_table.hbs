@@ -1,0 +1,45 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-2 col-md-4">
+            <H1 class="text-white mb-4">Quản lý</H1>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-danger btn-lg"><a class="text-white" href="/home">Bàn</a></button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/order">Đơn đặt bàn</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="#">Thể loại</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="#">Món ăn</a></button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="#">Thống kê</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="#">Tài khoản nhân
+                    viên</a></button>
+            </div>
+        </div>
+        <div class="col-xl-10 col-md-4">
+            <div class="card-header" style="margin-top: 5%">
+                <form action="/add_table" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="text-white">Tên bàn</label>
+                        <input type="text" name="nameProduct" class="form-control" id="exampleInputEmail1"
+                               aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1" class="text-white">Số lượng người</label>
+                        <input name="price" type="text" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3">Thêm sản phẩm</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
