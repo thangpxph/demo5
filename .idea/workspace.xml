@@ -22,8 +22,9 @@
     <list default="true" id="47e548a9-a280-42a5-aa5c-d18b0dc22f79" name="Default Changelist" comment="giao dien quan ly ban">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home/add_table/add_table.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/add_table/add_table.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/home/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/home.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/order/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/order/index.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +106,7 @@
       <workItem from="1604304469006" duration="4305000" />
       <workItem from="1604486887804" duration="6923000" />
       <workItem from="1604495237063" duration="730000" />
-      <workItem from="1604717426541" duration="10627000" />
+      <workItem from="1604717426541" duration="11740000" />
     </task>
     <task id="LOCAL-00001" summary="hi">
       <created>1603445098933</created>
@@ -219,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604724206841</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="giao dien quan ly ban">
+      <created>1604728970258</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604728970258</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,25 +274,25 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="465" y="67" key="Github.UntrackedFilesDialog/0.0.1366.738@0.0.1366.738" timestamp="1603443518721" />
-    <state width="1256" height="344" key="GridCell.Tab.0.bottom" timestamp="1604728904113">
+    <state width="1256" height="344" key="GridCell.Tab.0.bottom" timestamp="1604729758984">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1256" height="344" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604728904113" />
+    <state width="1256" height="344" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604729758984" />
     <state width="1345" height="243" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1604495218932" />
-    <state width="1256" height="344" key="GridCell.Tab.0.center" timestamp="1604728904113">
+    <state width="1256" height="344" key="GridCell.Tab.0.center" timestamp="1604729758984">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1256" height="344" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604728904113" />
+    <state width="1256" height="344" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604729758984" />
     <state width="1345" height="243" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1604495218932" />
-    <state width="1256" height="344" key="GridCell.Tab.0.left" timestamp="1604728904112">
+    <state width="1256" height="344" key="GridCell.Tab.0.left" timestamp="1604729758984">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1256" height="344" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604728904112" />
+    <state width="1256" height="344" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604729758984" />
     <state width="1345" height="243" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1604495218932" />
-    <state width="1256" height="344" key="GridCell.Tab.0.right" timestamp="1604728904113">
+    <state width="1256" height="344" key="GridCell.Tab.0.right" timestamp="1604729758984">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1256" height="344" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604728904113" />
+    <state width="1256" height="344" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604729758984" />
     <state width="1345" height="243" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604495218932" />
     <state width="1256" height="351" key="GridCell.Tab.1.bottom" timestamp="1603645572855">
       <screen x="1366" y="0" width="2560" height="1050" />
@@ -338,10 +346,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1604495311519" />
-    <state x="1881" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604724209370">
+    <state x="1881" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604728973552">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state x="1881" y="145" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604724209370" />
+    <state x="1881" y="145" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604728973552" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1604489437614" />
     <state x="1616" y="165" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604718064607">
       <screen x="1366" y="0" width="2560" height="1050" />

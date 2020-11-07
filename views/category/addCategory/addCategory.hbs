@@ -3,14 +3,14 @@
         <div class="col-xl-2 col-md-4">
             <H1 class="text-white mb-4">Quản lý</H1>
             <div class="card bg-primary text-white">
-                <button type="button" class="btn btn-danger btn-lg"><a class="text-white" href="/home">Bàn</a></button>
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/home">Bàn</a></button>
             </div>
             <div class="card bg-primary text-white">
                 <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/order">Đơn đặt bàn</a>
                 </button>
             </div>
             <div class="card bg-primary text-white">
-                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/category">Thể loại</a>
+                <button type="button" class="btn btn-danger btn-lg"><a class="text-white" href="/category">Thể loại</a>
                 </button>
             </div>
             <div class="card bg-primary text-white">
@@ -27,17 +27,14 @@
         </div>
         <div class="col-xl-10 col-md-4">
             <div class="card-header" style="margin-top: 5%">
-                <form action="/add_table" method="post" enctype="multipart/form-data">
+                <form action="/add_category" method="post" enctype="multipart/form-data">
                     <div class="form-group">
-                        <label for="exampleInputEmail1" class="text-white">Tên bàn</label>
+                        <label for="exampleInputEmail1" class="text-white">Tên Thể Loại</label>
                         <input type="text" name="nameProduct" class="form-control" id="exampleInputEmail1"
                                aria-describedby="emailHelp">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1" class="text-white">Số lượng người</label>
-                        <input name="price" type="text" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <button type="submit" class="btn btn-primary mt-3">Thêm Bàn</button>
+                    <button type="submit" class="btn btn-primary mt-3">Thêm Thể Loại</button>
                 </form>
             </div>
         </div>

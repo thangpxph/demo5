@@ -6,13 +6,13 @@
                 <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/home">Bàn</a></button>
             </div>
             <div class="card bg-primary text-white">
-                <button type="button" class="btn btn-danger btn-lg"><a class="text-white" href="/order">Đơn đặt bàn</a></button>
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/order">Đơn đặt bàn</a></button>
             </div>
             <div class="card bg-primary text-white">
                 <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/category">Thể loại</a></button>
             </div>
             <div class="card bg-primary text-white">
-                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/dish">Món ăn</a></button>
+                <button type="button" class="btn btn-danger btn-lg"><a class="text-white" href="/dish">Món ăn</a></button>
             </div>
             <div class="card bg-primary text-white">
                 <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="#">Thống kê</a></button>
@@ -24,28 +24,25 @@
         <div class="col-xl-10 col-md-4">
             <div class="container-fluid mt-5">
                 <div class="card mb-4">
-                    <div class="card-header"><i class="fas fa-table mr-3"></i>Đơn đặt bàn</div>
+                    <div class="card-header">
+                        Danh sách món ăn
+                        <button type="button" class="btn btn-primary btn float-right"><a class="text-white" href="/category/addCategory">Thêm món ăn</a></button>
+                    </div>
                     <div class="card-body">
                         <div class="table-responsive">
                             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                 <thead>
                                 <tr>
-                                    <th style="text-align: center">STT</th>
-                                    <th style="text-align: center">Thời gian</th>
-                                    <th style="text-align: center">Tên khách hàng</th>
-                                    <th style="text-align: center">Số điện thoại</th>
-                                    <th style="text-align: center">Món ăn đặt trước</th>
-                                    <th style="text-align: center">Thanh toán trước</th>
-                                    <th style="text-align: center">Hủy</th>
+                                    <th style="text-align: center">Stt</th>
+                                    <th style="text-align: center">Ảnh</th>
+                                    <th style="text-align: center">Tên món ăn</th>
+                                    <th style="text-align: center">Giá tiền</th>
+                                    <th style="text-align: center">Thành phần</th>
+                                    <th style="text-align: center">Xóa</th>
                                 </tr>
                                 </thead>
                             </table>
                         </div>
-                        <hr/><br/>
-                        <hr/><br/>
-                        <hr/><br/>
-                        <hr/><br/>
-                        <hr/>
                     </div>
                 </div>
             </div>

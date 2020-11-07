@@ -8,6 +8,9 @@ var homeRouter = require('./routes/home');
 var apiRouter = require('./routes/api');
 var orderRouter = require('./routes/order');
 var addTableRouter = require('./routes/addTable');
+var categoryRouter = require('./routes/category')
+var addCategoryRouter = require('./routes/addCategory');
+var DishRouter = require('./routes/dish');
 
 
 
@@ -32,11 +35,16 @@ app.use(express.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static('public/images'));
 app.use(express.static('public/css'));
+
+
 app.use('/', indexRouter);
 app.use('/home',homeRouter);
 app.use('/api', apiRouter);
 app.use('/order', orderRouter);
 app.use('/addTable', addTableRouter);
+app.use('/category', categoryRouter);
+app.use('/category/addCategory', addCategoryRouter);
+app.use('/dish', DishRouter);
 
 
 module.exports = app;
