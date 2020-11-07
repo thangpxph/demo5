@@ -12,6 +12,7 @@ var categoryRouter = require('./routes/category')
 var addCategoryRouter = require('./routes/addCategory');
 var DishRouter = require('./routes/dish');
 var addDish = require('./routes/addDish');
+var clientAccountRouter = require('./routes/clientAccount');
 
 
 
@@ -47,6 +48,7 @@ app.use('/category', categoryRouter);
 app.use('/category/addCategory', addCategoryRouter);
 app.use('/dish', DishRouter);
 app.use('/dish/addDish', addDish);
+app.use('/clientAccount', clientAccountRouter);
 
 
 module.exports = app;

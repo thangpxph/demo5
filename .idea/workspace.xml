@@ -23,7 +23,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/category/addCategory/addCategory.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/category/addCategory/addCategory.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/category/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/category/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/dish/addDish/addDish.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dish/addDish/addDish.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/dish/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dish/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home/add_table/add_table.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/add_table/add_table.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/home.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/order/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/order/index.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,15 +75,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views\home" />
-      <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views\login" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views\home" />
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views\layouts" />
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views" />
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views\home" />
+      <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views\login" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -105,7 +110,8 @@
       <workItem from="1604304469006" duration="4305000" />
       <workItem from="1604486887804" duration="6923000" />
       <workItem from="1604495237063" duration="730000" />
-      <workItem from="1604717426541" duration="13031000" />
+      <workItem from="1604717426541" duration="13363000" />
+      <workItem from="1604733363278" duration="1073000" />
     </task>
     <task id="LOCAL-00001" summary="hi">
       <created>1603445098933</created>
@@ -233,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604730301636</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="giao dien">
+      <created>1604731611935</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604731611935</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,26 +294,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="465" y="67" key="Github.UntrackedFilesDialog/0.0.1366.738@0.0.1366.738" timestamp="1603443518721" />
-    <state width="2539" height="344" key="GridCell.Tab.0.bottom" timestamp="1604731385807">
-      <screen x="1366" y="0" width="2560" height="1050" />
+    <state width="1345" height="221" key="GridCell.Tab.0.bottom" timestamp="1604734307613">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="2539" height="344" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604731385807" />
-    <state width="1345" height="243" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1604495218932" />
-    <state width="2539" height="344" key="GridCell.Tab.0.center" timestamp="1604731385807">
-      <screen x="1366" y="0" width="2560" height="1050" />
+    <state width="2539" height="344" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604731721816" />
+    <state width="1345" height="221" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1604734307613" />
+    <state width="1345" height="221" key="GridCell.Tab.0.center" timestamp="1604734307612">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="2539" height="344" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604731385807" />
-    <state width="1345" height="243" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1604495218932" />
-    <state width="2539" height="344" key="GridCell.Tab.0.left" timestamp="1604731385807">
-      <screen x="1366" y="0" width="2560" height="1050" />
+    <state width="2539" height="344" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604731721816" />
+    <state width="1345" height="221" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1604734307612" />
+    <state width="1345" height="221" key="GridCell.Tab.0.left" timestamp="1604734307612">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="2539" height="344" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604731385807" />
-    <state width="1345" height="243" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1604495218932" />
-    <state width="2539" height="344" key="GridCell.Tab.0.right" timestamp="1604731385807">
-      <screen x="1366" y="0" width="2560" height="1050" />
+    <state width="2539" height="344" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604731721816" />
+    <state width="1345" height="221" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1604734307612" />
+    <state width="1345" height="221" key="GridCell.Tab.0.right" timestamp="1604734307612">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="2539" height="344" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604731385807" />
-    <state width="1345" height="243" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604495218932" />
+    <state width="2539" height="344" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604731721816" />
+    <state width="1345" height="221" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604734307612" />
     <state width="1256" height="351" key="GridCell.Tab.1.bottom" timestamp="1603645572855">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
@@ -353,10 +366,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1604495311519" />
-    <state x="1881" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604730307790">
+    <state x="1881" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604731627222">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state x="1881" y="145" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604730307790" />
+    <state x="1881" y="145" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604731627222" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1604489437614" />
     <state x="1616" y="165" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604718064607">
       <screen x="1366" y="0" width="2560" height="1050" />
