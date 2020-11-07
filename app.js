@@ -11,6 +11,7 @@ var addTableRouter = require('./routes/addTable');
 var categoryRouter = require('./routes/category')
 var addCategoryRouter = require('./routes/addCategory');
 var DishRouter = require('./routes/dish');
+var addDish = require('./routes/addDish');
 
 
 
@@ -45,6 +46,7 @@ app.use('/addTable', addTableRouter);
 app.use('/category', categoryRouter);
 app.use('/category/addCategory', addCategoryRouter);
 app.use('/dish', DishRouter);
+app.use('/dish/addDish', addDish);
 
 
 module.exports = app;
