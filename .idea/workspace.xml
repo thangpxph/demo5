@@ -19,11 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47e548a9-a280-42a5-aa5c-d18b0dc22f79" name="Default Changelist" comment="login">
+    <list default="true" id="47e548a9-a280-42a5-aa5c-d18b0dc22f79" name="Default Changelist" comment="getAllTable">
+      <change afterPath="$PROJECT_DIR$/views/home/home.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/login/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,16 +68,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.19.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Mẫu/assignmentdg1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/layouts" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views\login" />
+      <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views\home" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views\layouts" />
+      <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\views" />
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\demo5\public\images" />
     </key>
   </component>
@@ -95,7 +110,9 @@
       <workItem from="1604135267300" duration="3243000" />
       <workItem from="1604286255615" duration="5157000" />
       <workItem from="1604304469006" duration="4305000" />
-      <workItem from="1604486887804" duration="2481000" />
+      <workItem from="1604486887804" duration="6923000" />
+      <workItem from="1604495237063" duration="730000" />
+      <workItem from="1604717426541" duration="6065000" />
     </task>
     <task id="LOCAL-00001" summary="hi">
       <created>1603445098933</created>
@@ -188,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604488261025</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="getAllTable">
+      <created>1604489433564</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604489433564</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +233,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hi" />
     <MESSAGE value="login" />
-    <option name="LAST_COMMIT_MESSAGE" value="login" />
+    <MESSAGE value="getAllTable" />
+    <option name="LAST_COMMIT_MESSAGE" value="getAllTable" />
   </component>
   <component name="WindowStateProjectService">
     <state x="373" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603619071164">
@@ -220,11 +245,11 @@
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
     <state x="2056" y="284" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1603813129498" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1603778098484">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1604495372671">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="2234" y="176" key="FileChooserDialogImpl/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1603715767663" />
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1603778098484" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1604495372671" />
     <state x="561" y="267" key="Github.ShareDialog" timestamp="1603443510119">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -233,26 +258,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="465" y="67" key="Github.UntrackedFilesDialog/0.0.1366.738@0.0.1366.738" timestamp="1603443518721" />
-    <state width="1345" height="243" key="GridCell.Tab.0.bottom" timestamp="1604489389979">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1256" height="375" key="GridCell.Tab.0.bottom" timestamp="1604723742742">
+      <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1282" height="372" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604131556146" />
-    <state width="1345" height="243" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1604489389979" />
-    <state width="1345" height="243" key="GridCell.Tab.0.center" timestamp="1604489389979">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1256" height="375" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604723742742" />
+    <state width="1345" height="243" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1604495218932" />
+    <state width="1256" height="375" key="GridCell.Tab.0.center" timestamp="1604723742742">
+      <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1282" height="372" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604131556146" />
-    <state width="1345" height="243" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1604489389979" />
-    <state width="1345" height="243" key="GridCell.Tab.0.left" timestamp="1604489389979">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1256" height="375" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604723742742" />
+    <state width="1345" height="243" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1604495218932" />
+    <state width="1256" height="375" key="GridCell.Tab.0.left" timestamp="1604723742742">
+      <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1282" height="372" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604131556145" />
-    <state width="1345" height="243" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1604489389979" />
-    <state width="1345" height="243" key="GridCell.Tab.0.right" timestamp="1604489389979">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1256" height="375" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604723742742" />
+    <state width="1345" height="243" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1604495218932" />
+    <state width="1256" height="375" key="GridCell.Tab.0.right" timestamp="1604723742742">
+      <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1282" height="372" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604131556146" />
-    <state width="1345" height="243" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604489389979" />
+    <state width="1256" height="375" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604723742742" />
+    <state width="1345" height="243" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604495218932" />
     <state width="1256" height="351" key="GridCell.Tab.1.bottom" timestamp="1603645572855">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
@@ -301,20 +326,28 @@
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
     <state width="1256" height="351" key="GridCell.Tab.3.right/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1603645572855" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1604488266463">
+    <state x="184" y="14" key="SettingsEditor" timestamp="1604495311519">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1604495311519" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1604489437614">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="1881" y="145" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604130655661" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1604488266463" />
-    <state x="396" y="43" width="759" height="636" key="dock-window-1" timestamp="1604127119709">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="396" y="43" width="759" height="636" key="dock-window-1/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604127119709" />
-    <state x="-7" y="0" width="697" height="745" key="dock-window-1/0.0.1366.738@0.0.1366.738" timestamp="1603618478508" />
-    <state x="3138" y="80" width="759" height="636" key="dock-window-2" timestamp="1604130636279">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1604489437614" />
+    <state x="1616" y="165" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604718064607">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state x="3138" y="80" width="759" height="636" key="dock-window-2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604130636279" />
+    <state x="1616" y="165" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604718064607" />
+    <state x="2655" y="127" width="1046" height="633" key="dock-window-1" timestamp="1604722790176">
+      <screen x="1366" y="0" width="2560" height="1050" />
+    </state>
+    <state x="2655" y="127" width="1046" height="633" key="dock-window-1/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604722790176" />
+    <state x="-7" y="0" width="697" height="745" key="dock-window-1/0.0.1366.738@0.0.1366.738" timestamp="1603618478508" />
+    <state x="2752" y="135" width="1046" height="633" key="dock-window-2" timestamp="1604723130333">
+      <screen x="1366" y="0" width="2560" height="1050" />
+    </state>
+    <state x="2752" y="135" width="1046" height="633" key="dock-window-2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1604723130333" />
     <state x="1724" y="95" width="759" height="636" key="dock-window-3" timestamp="1604130636279">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>

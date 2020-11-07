@@ -1,8 +1,10 @@
 var express = require('express');
 var path = require('path');
+var hbs = require('express-handlebars')
 var logger = require('morgan');
 var mongoose = require('mongoose');
 var indexRouter = require('./routes/index');
+var homeRouter = require('./routes/home');
 var apiRouter = require('./routes/api');
 
 
@@ -14,6 +16,12 @@ console.log('Kết nối thành công');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
+
+app.engine('.hbs', hbs({
+    extname: '.hbs',
+    layoutsDir: path.join(app.get('views'), 'layouts'),
+    defaultLayout: 'main'
+}));
 app.set('view engine', 'hbs');
 
 app.use(logger('dev'));
@@ -23,10 +31,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static('public/images'));
 app.use(express.static('public/css'));
 app.use('/', indexRouter);
+app.use('/home',homeRouter);
 app.use('/api', apiRouter);
-
-
-
 
 
 module.exports = app;
