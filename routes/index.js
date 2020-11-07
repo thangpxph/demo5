@@ -13,7 +13,7 @@ router.post('/', async function (req, res) {
     const password = req.body.password
     const result = await User.findOne({username: username, password: password});
     if (result != null) {
-        res.redirect('/home/home.hbs');
+        res.redirect('/home');
     } else {
         res.render('login/index', {
             status: "Thất Bại", content_status: "Tài khoản hoặc mật khẩu không chính xác",
