@@ -1,13 +1,14 @@
 var express = require('express');
 var router = express.Router();
 const User = require('../models/User');
+const Table = require("mongoose");
 /* GET home page. */
 router.get('/', async function (req, res) {
     res.render('login/index.hbs');
 })
 router.post('/', async function (req, res) {
-    const username = req.body.username;
-    const password = req.body.password
+    let username= req.body.username;
+    let password= req.body.password;
     const result = await User.findOne({username: username, password: password});
     if (result != null) {
         res.redirect('/home');

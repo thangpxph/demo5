@@ -9,7 +9,13 @@ body, html {
     background-repeat: no-repeat;
     background-position: center;
 }
-
+.bg_table{
+    background-image: url("/images/table.png");
+    height: 100%;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 :root {
     --input-padding-x: 1.5rem;
     --input-padding-y: .75rem;
@@ -148,7 +154,7 @@ body {
     }
 }
 
-.card {
-    background-color: rgba(245, 245, 245, 0.4) !important;
-    border-radius: 20px !important;
-}
+/*.card {*/
+/*    background-color: rgba(245, 245, 245, 0.4) !important;*/
+/*    border-radius: 20px !important;*/
+/*}*/
