@@ -1,7 +1,6 @@
 var express = require('express');
 var path = require('path');
 var hbs = require('express-handlebars')
-var logger = require('morgan');
 var mongoose = require('mongoose');
 var indexRouter = require('./routes/index');
 var homeRouter = require('./routes/home');
@@ -31,7 +30,6 @@ app.engine('.hbs', hbs({
 }));
 app.set('view engine', 'hbs');
 
-app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname, 'public')));
